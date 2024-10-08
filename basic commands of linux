@@ -1,0 +1,18 @@
+linux basic commands: 
+
+1.pwd (present working directory)
+2.cd(change directory)
+3.mkdir(make a new directory)
+4.ls(list of files and directories)
+
+-> ls -l (list of owner,permission)
+-> ls -a (view hidden files)
+
+5.rm(remove files or directories)
+6.cp (copy directories or files)
+7. mv(move directories or files)
+8.touch file_name(create a text file)
+9.chmod 777(give access for read write and execute)
+10.sudo command_name(super user do. sudo give permission for acting the root user.using sudo code, all linux command can execute by the name of root user)
+11.grep "search for anything" file_name (using this command you can search any work that you have done in the previous . most commonly, if you have a lot of command or data, grep helps you to find a exect data from the file)
+12.apt install package_name(install advance package tool . like sudo apt install chrome)
