@@ -1,0 +1,12 @@
+Linux command sequence to build a linux kernel
+
+1. wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.6.tar.xz
+2. tar xvf linux-5.9.6.tar.xz
+3. sudo apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
+4. cd linux-5.9.6
+5.
+cp -v /boot/config-$(uname -r) .config
+make menuconfig
+Make -j4
+sudo make modules_install
+sudo make install
