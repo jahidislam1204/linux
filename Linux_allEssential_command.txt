@@ -1,0 +1,72 @@
+All Unix(Linux) essential command 
+
+
+**Basic Command**
+
+
+
+1. pwd              ------------> check current Location/directory
+2. whoami           ------------> display name of current logged in user
+3. date               ------------> display system date and time
+   date +%D               ------------> display only date
+   date +%T              ------------> display only time
+   date +%y              ------------> display only year 
+
+4. ls               ------------> list of all files in present directory
+   ls -ltrh           ------------> display in details of listed files
+
+   -l = uses long formats, displaying details like permission,owner,size and modification time
+   -t = sorts the output by modification time
+   -r = Reverse the older of sorting, making and it shows the oldest file first.
+   -h = Human readable. convert size into kb(k),mb(m),gb(g).
+
+5. clear               ------------> clear the terminal
+
+
+
+**File-system**
+
+
+
+6. cat <file_name>              ------------> display content of file on terminal
+7. less <file_name>              ------------> read a file and search for a word in editor
+8. more <file_name>              ------------> view content of a file page by page
+9. touch <file_name>                 ------------> Create a file
+10. rm <file_name>              ------------> delete a file
+11. vi <file_name>              ------------> It is a text editor. It works in three mode. 
+                                             1. Normal mode 2.Insert mode 3.Command mode
+                                             -> to edit the file press 'i'.
+                                             -> to exit the insert mode, press 'ESC'
+                                             -> to save and exit, press 'shift+:' and write wq 
+
+12. nano <file_name>    ------------> It is easy to moderate a text editor than vi. 
+                                      It takes a editor to insert mode directly.
+                                      To save and exit the editor, press(ctrl+x)
+                                      If you want to save, write 'y'
+                                      if you want to keep same format press 'Enter',
+                                      else you select you preferable text format.
+
+13. mkdir <directory_name>  ------------> Create a new directory.
+14. rmdir <directory_name>  ------------> Delete a directory
+15. rm -rf <directory_name>  ------------> Delete directory permanently.
+16. cd </path/folder>  ------------> Change current directory.
+                                     To back the previous directory write 'cd ..'
+                                     to go to the root directory write 'cd /'
+
+17. cp <source_file> <destination_file>  ------------> copy and paste a file from one folder to another folder.
+18. cp <fileA> <fileB>  ------------> copy content of fileA to fileB.
+19. mv <fileA> </dest/path>  ------------> cut and paste a file from one folder to another.
+20. head -5 <file_name>  ------------> display top 5 lines from a file.
+21. tail -5 <file_name>  ------------> display bottom 5 lines from a file.
+22. sort <file_name>   ------------> Sort the content from a file.
+23. sort <file_name> | uniq  ------------> display uniq content from a file
+24. split -l 3 <file_name>  ------------> split the content of a file in 3 different file.
+25. grep "word" <file_name>  ------------> search and display matching content from a file.
+26. egrep "word1|word2" <file_name>  ------------> search multiple word.
+27. wc -l <file_name>  ------------> display number of line of a file.
+28. cmp fileA fileB  ------------> check files are identical or not.
+29. diff -u fileA fileB  ------------> compare and display differences between two files.
+30. find ./ -name <file_name>  ------------> find a file using 'find' command in Linux. ./ means path of a file.
+31. updatedb  ------------> update cache database.
+32. locate <file_name>  ------------> find a file using locate command in Linux.
+
