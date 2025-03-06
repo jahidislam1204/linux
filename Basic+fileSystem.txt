@@ -70,3 +70,8 @@ All Unix(Linux) essential command
 31. updatedb  ------------> update cache database.
 32. locate <file_name>  ------------> find a file using locate command in Linux.
 
+
+
+
+
+
