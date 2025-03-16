@@ -1,0 +1,18 @@
+// check ip address
+ip addr
+
+// Check network connection
+ping <host>
+
+// Get http headers
+curl -I <url>
+
+// download a file
+wget <url>
+
+// show open ports
+netstat -tulnp
+
+// show active network connection
+ss -tulnp
+
