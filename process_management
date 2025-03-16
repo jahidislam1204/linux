@@ -1,0 +1,12 @@
+// show all running process
+ps aux
+
+// Monitor System process
+top
+htop
+
+// kill a process
+kill <process_id>
+
+// kill all process 
+killall <name>
