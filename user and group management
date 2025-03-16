@@ -1,0 +1,11 @@
+// show current user
+whoami
+
+// add a new user
+adduser <user_name>
+
+//add user to a group
+usermod -aG <group_name> <user_name>
+
+// change user password
+password <user_name>
