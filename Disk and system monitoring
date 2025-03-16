@@ -1,0 +1,15 @@
+// show disk usage
+df -h
+
+// show all folder size
+du -sh <dir>
+
+// show memory usage
+free -m
+
+// show system uptime
+uptime
+
+// show system info
+
+uname -a
