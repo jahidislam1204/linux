@@ -1,0 +1,29 @@
+For debian 
+
+// update system
+apt update
+
+// upgrade system
+apt upgrade
+
+// system fully update
+apt update && apt upgrade
+
+// Install a software
+apt install <package_name>
+
+// Remove a software
+apt install <package_name>
+
+
+For example 
+
+download google chrome for ubuntu
+
+sudo apt update   //Update your package list
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb   //Download the Google Chrome .deb package
+sudo dpkg -i google-chrome-stable_current_amd64.deb       //Install Google Chrome
+google-chrome --version   // check the version of google-chrome
+
+If you face any error 
+sudo apt --fix-broken install   // fix any dependencies missing
