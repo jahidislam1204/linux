@@ -1,0 +1,79 @@
+1. bin
+
+/bin --->> binary
+which contains all the essential command system binary executables
+required for the system to function properly.
+
+2. boot
+
+contains all the essential files needed for the boot properly
+Includes Linux kernel, the GRUB bootloader, and other startup files.
+
+Important Files in /boot
+vmlinuz – The compressed Linux kernel.
+initrd.img – The initial RAM disk, used to load necessary drivers during boot.
+grub/ – Contains GRUB bootloader files and configuration.
+System.map – A symbol lookup table for debugging the kernel.
+
+
+3. etc
+
+ a critical system folder that stores configuration files for the system and installed applications.
+ control system behavior, services, networking, and user access.
+
+/etc/passwd	         Stores user account information.
+/etc/shadow	         Stores encrypted user passwords.
+/etc/group	         Stores user groups.
+/etc/hostname      	 Contains the system's hostname.
+/etc/hosts	         Maps hostnames to IP addresses.
+/etc/fstab	         Defines mount points for filesystems.
+/etc/resolv.conf	   Defines DNS settings.
+/etc/network/interfaces	      Configures network interfaces (in some distributions).
+/etc/systemd/system/	        Stores custom systemd service files.
+/etc/crontab	                Manages scheduled tasks (cron jobs).
+/etc/sudoers	                Defines sudo permissions.
+/etc/ssh/sshd_config	        Configures SSH server settings.
+
+
+
+4. /tmp
+
+storing temporary files
+usually deleted automatically when the system reboots.
+
+
+5. /var
+
+stores variable data that changes frequently
+example : logs, cache
+
+
+
+/var/log/               	Stores system and application logs.
+/var/tmp/	                Stores temporary files (not deleted on reboot).
+/var/spool/	              Contains queues for scheduled jobs (e.g., print jobs, mail).
+/var/cache/	              Stores cached data for applications.
+/var/lib/	                Stores dynamic app data (e.g., databases, system states).
+
+
+
+
+
+
+
+
+/dev	                       Device Files – Virtual files for hardware devices (e.g., /dev/sda, /dev/null).
+/home	                       User Home Directories – Personal files and settings for users.
+/lib	                       System Libraries – Shared libraries required for system binaries.
+/lib64	                     64-bit System Libraries – Libraries for 64-bit architecture.
+/media	                     Mount Point for Removable Media – Automounted devices like USBs and DVDs.
+/mnt	                       Manual Mount Directory – Temporary mount point for external filesystems.
+/opt	                       Optional Software Packages – Third-party applications installed manually.
+/proc	                       Process Filesystem – Kernel and system process information (virtual filesystem).
+/root	                       Root User Home – Home directory for the root (superuser).
+/run	                       Runtime Variable Data – Stores runtime process information (e.g., PIDs, sockets).
+/sbin	                       System Binaries – Essential system administration commands for root users.
+/srv	                       Service Data – Data for system services (e.g., web server files).
+/sys	                       Kernel & System Info – Exposes hardware and system details (virtual filesystem).
+/usr	                       User Utilities & Applications – Contains installed programs and libraries.
+
